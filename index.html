@@ -4,17 +4,201 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower shop</title>
+
+    <!-- font awesome file link here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css file link here -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./responsive.css">
 </head>
 <body>
     <header>
         <nav>
+            <div class="logo">
+                <h1>Flower Shop</h1>
+            </div>
+           <div class="nav-items">
             <ul>
-                <li>Home</li>
+                <li class="list-1">Home</li>
                 <li>About</li>
                 <li>Sarvice</li>
-                <li>Contact</li>
+                <li class="list-1">Contact</li>
             </ul>
+            <button class="nav-items-btn">Login</button>
+           </div>
         </nav>
+        <div class="banner-parent">
+            <div class="banner-items">
+                <h1>Fresh Flowers <br> For You</h1>
+                <p>This flower shop specialises in providing florals for any occasion arrangements for corporate offices, weddings & events as well as bespoke arrangements and gifts for someone special.Shop flowers for delivery online or come and visit the team in store.</p>
+                <button class="banner-btn">Shop Now</button>
+            </div>
+        </div>
     </header>
+    <!-- main section code start -->
+    <main>
+        <!-- first section code start -->
+        <section class="flower-section">
+            <div class="flower-parent">
+                <div class="flower-item">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <h3>Free shipping</h3>
+                    <h4>On order over $150</h4>
+                </div>
+                <div class="flower-item">
+                    <i class="fa-solid fa-money-bill-1-wave"></i>
+                    <h3>Cash On Delivery</h3>
+                    <h4>100% money back guarantee</h4>
+                </div>
+                <div class="flower-item">
+                    <i class="fa-solid fa-gift"></i>
+                    <h3>Special Gift Card</h3>
+                    <h4>Offer special bonuses with gift</h4>
+                </div>
+                <div class="flower-item">
+                    <i class="fa-solid fa-headset"></i>
+                    <h3>24/7 customer service</h3>
+                    <h4>Call us 24/7 at 123456789</h4>
+                </div>
+            </div>
+        </section>
+        <!-- second section code start -->
+        <section class="catagorie-section">
+            <div class="catagorie-title">
+                <h2>Top Categories</h2>
+            </div>
+            <div class="catagorie-parent">
+                <div class="catagorie-items">
+                    <img src="./image/catagorie-1.jpeg" alt="">
+                    <h4>Creeper</h4>
+                    <div class="flower-price">
+                        <div>
+                            <p>$20.00</p>
+                        </div>
+                       <div class="flower-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                       </div>
+                    </div>
+                </div>
+                <div class="catagorie-items">
+                    <img src="./image/catagorie-9.jpg" alt="">
+                    <h4>Sweet Violet</h4>
+                    <div class="flower-price">
+                        <div>
+                            <p>$20.00</p>
+                        </div>
+                       <div class="flower-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                       </div>
+                    </div>
+                </div>
+                <div class="catagorie-items">
+                    <img src="./image/catagorie-3.webp" alt="">
+                    <h4>Pansy</h4>
+                    <div class="flower-price">
+                        <div>
+                            <p>$20.00</p>
+                        </div>
+                       <div class="flower-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                       </div>
+                    </div>
+                </div>
+                <div class="catagorie-items">
+                    <img src="./image/catagorie-4.webp" alt="">
+                    <h4>Perennial</h4>
+                    <div class="flower-price">
+                        <div>
+                            <p>$20.00</p>
+                        </div>
+                       <div class="flower-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                       </div>
+                    </div>
+                </div>
+                <div class="catagorie-items">
+                    <img src="./image/catagorie-2.avif" alt="">
+                    <h4>Annual</h4>
+                    <div class="flower-price">
+                        <div>
+                            <p>$20.00</p>
+                        </div>
+                       <div class="flower-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                       </div>
+                    </div>
+                </div>
+                <div class="catagorie-items">
+                    <img src="./image/catagorie-6.webp" alt="">
+                    <h4>Biennial</h4>
+                    <div class="flower-price">
+                        <div>
+                            <p>$20.00</p>
+                        </div>
+                       <div class="flower-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                       </div>
+                    </div>
+                </div>
+                <div class="catagorie-items">
+                    <img src="./image/catagorie-7.jpeg" alt="">
+                    <h4>Shrub</h4>
+                    <div class="flower-price">
+                        <div>
+                            <p>$20.00</p>
+                        </div>
+                       <div class="flower-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                       </div>
+                    </div>
+                </div>
+                <div class="catagorie-items">
+                    <img src="./image/catagorie-8.jpg" alt="">
+                    <h4>Butea Monosperma</h4>
+                    <div class="flower-price">
+                        <div>
+                            <p>$20.00</p>
+                        </div>
+                       <div class="flower-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
