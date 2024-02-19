@@ -27,6 +27,11 @@ nav{
 .nav-items ul li{
     margin-left: 35px;
     font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-items ul li:hover{
+    color: yellow;
 }
 .nav-items-btn{
     margin-left: 30px;
@@ -66,7 +71,7 @@ nav{
     font-size: 18px;
 }
 .banner-btn{
-    background-color: #aa135a;
+    background-color: #b41b62;
     color: #fff;
     padding: 8px 20px;
     font-size: 16px;
@@ -150,4 +155,49 @@ nav{
 .flower-icon i{
     font-size: 15px;
     color: goldenrod;
+}
+
+/* third section code start  */
+.deal-section{
+    width: 100%;
+}
+.deal-parent{
+    display: flex;
+    align-items: center;
+    width: 1150px;
+    margin: 0 auto;
+}
+.deal-text{
+    text-align: center;
+}
+.deal-text h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+.deal-text span{
+    color: #aa135a;
+}
+.deal-text p{
+    margin: 30px 0 40px 0;
+    font-size: 17px;
+    line-height: 1.4;
+    color: rgb(65, 64, 64);
+    font-weight: 500;
+}
+.deal-btn{
+    background-color: #d63580;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    border:2px solid #c42b72;
+    transition: 0.5s;
+}
+.deal-btn:hover{
+    background: #fff;
+    color: #aa135a;
+}
+.deal-img img{
+    width: 400px;
 }
